@@ -149,10 +149,10 @@ def main() -> None:
     test_dir = Path("test_images")
     test_dir.mkdir(exist_ok=True)
     
-    generate_mixed_coins_image(str(test_dir / "test4_mixed_coins.jpg"))
-    generate_bubbles_image(str(test_dir / "test5_bubbles.jpg"))
-    generate_challenging_image(str(test_dir / "test6_challenging.jpg"))
-    generate_real_world_scene(str(test_dir / "test7_real_scene.jpg"))
+    generate_mixed_coins_image(str(test_dir / "test1_mixed_coins.jpg"))
+    generate_bubbles_image(str(test_dir / "test2_bubbles.jpg"))
+    generate_challenging_image(str(test_dir / "test3_challenging.jpg"))
+    generate_real_world_scene(str(test_dir / "test4_real_scene.jpg"))
     
     print("All additional test images generated successfully!")
 
