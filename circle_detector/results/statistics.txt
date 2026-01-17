@@ -1,0 +1,15 @@
+Circle Detection Statistics
+Total circles: 8
+Min radius: 15.00 px
+Max radius: 117.00 px
+Avg radius: 47.12 px
+
+Circles (x, y, r):
+  1: (301, 225), r=117 px
+  2: (497, 151), r=45 px
+  3: (351, 190), r=22 px
+  4: (256, 275), r=54 px
+  5: (350, 263), r=57 px
+  6: (151, 119), r=15 px
+  7: (244, 178), r=48 px
+  8: (79, 351), r=19 px
