@@ -1,0 +1,47 @@
+{
+  "dataset": "Dogs vs Cats",
+  "source": "Kaggle (dogs-vs-cats competition)",
+  "description": "Binary classification dataset with images of cats and dogs",
+  "total_images": 25000,
+  "splits": {
+    "train": {
+      "total": 20000,
+      "cats": 10000,
+      "dogs": 10000
+    },
+    "validation": {
+      "total": 2500,
+      "cats": 1250,
+      "dogs": 1250
+    },
+    "test": {
+      "total": 2500,
+      "cats": 1250,
+      "dogs": 1250
+    }
+  },
+  "split_ratio": [0.8, 0.1, 0.1],
+  "image_format": "JPG",
+  "preprocessing": {
+    "training": {
+      "resize": 256,
+      "crop": 224,
+      "augmentation": [
+        "RandomHorizontalFlip",
+        "RandomRotation(15)",
+        "ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1)"
+      ]
+    },
+    "validation_test": {
+      "resize": 256,
+      "crop": 224,
+      "augmentation": "None"
+    }
+  },
+  "normalization": {
+    "mean": [0.485, 0.456, 0.406],
+    "std": [0.229, 0.224, 0.225]
+  },
+  "created_date": "2026-01-23",
+  "notes": "Data split using splitfolders with seed=42 for reproducibility"
+}
