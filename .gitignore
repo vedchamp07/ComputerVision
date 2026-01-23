@@ -47,6 +47,9 @@ cat_vs_dog_classifier/raw_images/
 cat_vs_dog_classifier/organized_data/
 cat_vs_dog_classifier/data/
 
+# Zip files
+*.zip
+
 # Model weights
 cat_vs_dog_classifier/*.pth
 
