@@ -50,9 +50,5 @@ cat_vs_dog_classifier/data/
 # Zip files
 *.zip
 
-# Model weights
-cat_vs_dog_classifier/*.pth
-
-# Output files
-cat_vs_dog_classifier/*.png
-cat_vs_dog_classifier/*.csv
+# Model/output artifacts (tracked as needed)
+# (Left intentionally empty to allow .pth/.png/.csv in cat_vs_dog_classifier)

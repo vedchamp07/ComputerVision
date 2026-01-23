@@ -38,7 +38,7 @@ test_dataset = datasets.ImageFolder('data/test',
 # Create data loaders
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
-test_loader = DDataLoader(test_dataset, batch_size=32, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
 print(f'Training samples: {len(train_dataset)}')
 print(f'Validation samples: {len(val_dataset)}')

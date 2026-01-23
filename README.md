@@ -4,6 +4,16 @@ This repository contains my computer vision projects implementing various classi
 
 ## Projects
 
+### Cat vs Dog Classifier
+
+- **Location**: [cat_vs_dog_classifier/](cat_vs_dog_classifier/)
+- **Description**: Transfer-learning pipeline using ResNet18 for the Kaggle Dogs vs Cats dataset with automated data split (train/val/test) and evaluation utilities.
+- **Key Features**:
+  - Data download/organization helper and reproducible 80/10/10 splits
+  - Transfer learning with frozen backbone and tuned final layer
+  - Training curves and confusion matrix outputs for quick diagnostics
+  - Best-model checkpointing (`best_model.pth`) for inference/evaluation
+
 ### Circle Detector (Hough Transform)
 
 - **Location**: [circle_detector/](circle_detector/)
@@ -48,6 +58,15 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies for specific projects
+
+## Cat vs Dog Classifier
+cd cat_vs_dog_classifier
+pip install -r requirements.txt
+# Option A: prepare data via setup script (requires dataset zip available locally)
+python setup_data.py
+# Train / evaluate
+python train.py
+python evaluate.py
 
 ## Circle Detector
 cd circle_detector
