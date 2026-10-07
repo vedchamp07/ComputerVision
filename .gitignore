@@ -52,3 +52,6 @@ cat_vs_dog_classifier/data/
 
 # Model/output artifacts (tracked as needed)
 # (Left intentionally empty to allow .pth/.png/.csv in cat_vs_dog_classifier)
+
+# macOS
+.DS_Store
