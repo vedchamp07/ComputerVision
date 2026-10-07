@@ -17,7 +17,7 @@ This repository contains my computer vision projects implementing various classi
 ### Circle Detector (Hough Transform)
 
 - **Location**: [circle_detector/](circle_detector/)
-- **Description**: Complete implementation of the Day 2 Assignment for detecting circles in images using OpenCV's Hough Circle Transform
+- **Description**: Detects circles in images using OpenCV's Hough Circle Transform
 - **Key Features**:
   - Robust preprocessing pipeline (grayscale conversion, Gaussian/median blur, histogram equalization)
   - Configurable Hough Circle Transform with full parameter tuning support
